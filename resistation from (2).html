@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html
+<head>
+    <meta sname="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+        margin: 0px;
+        }
+        .form-container{
+            border: solid 1px black;
+            width: 40%;
+            margin: auto;
+            margin-top: 10px;
+            padding: 10px;
+            text-align: center;
+            background-color:red(228, 228, 228);
+        }
+    }
+        .form-container input{
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 10px;
+            display: inline-block;
+            outline-color: red;
+        }
+        .form-container input[type="submit"]{
+            background-color: rgb(120, 211, 143);
+            border: none;
+            font-size: 18px;
+        }
+        .form-container input[type="submit"]:hover{
+            background-color: rgb(100, 187, 122);
+        }
+        .form-container{
+                width: 50%;
+                background-color: rgb(194, 188, 255);
+            }
+        }
+        @media (max-width: 200px){
+            .form-container{
+                width: 90%;
+                background-color: rgb(255, 189, 189);
+            }
+        }
+    </style>
+</head>
+body> 
+    <div class="form-container">
+        <form action="demo.php">
+            <h1>Registration Form </h1>
+
+          <label> <input type="text"id="username" placeholder="First Name"><br><br>
+        <input type="text"id="username" placeholder="Middle Name"><br><br>
+        <input type="text"id="username" placeholder="Last Name"><br><br>
+          <label>
+              Gender:
+              </label><br><br>
+        <input type="radio"value="Female" name="Gender">Female 
+        <input type="radio"value="Male" name="Gender"> Male <br><br>
+        <input type="password"id="username" placeholder="Password"><br><br>
+        <input type="password"id="username" placeholder="Confirm Password"></lable> <br><br>
+        
+            <input type="submit" value="Resistor"><br><br>
+             <button></button><br><br>
+        </form>
+   </div>
+     
+    <div class="form-container">
+        <form action="demo.php">
+            <h1>Login Form </h1>
+
+            <input type="text"id="username" placeholder="Username"><br><br>
+            <input type="text"id="username" placeholder="Email"><br><br>
+        <input type="password"id="username" placeholder="Password"><br><br>
+            <input type="password"id="username" placeholder="Confirm Password"></lable> <br><br>
+
+            <input type="submit" value="Login"><br><br>
+             forgot<a href="#"> password </a> <br><br>
+             <button type="submit"id="sign-up">sign up</button><br><br>
+        </form>
+   </div>
+</body><
+</html>
+           
+
+
